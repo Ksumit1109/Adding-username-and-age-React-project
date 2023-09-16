@@ -1,10 +1,11 @@
-import User from './components/User'
+import User from './components/User/User'
+import React from 'react';
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
       <User></User>
-    </div>
+    </React.Fragment>
   );
 }
 
